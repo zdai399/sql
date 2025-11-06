@@ -205,5 +205,9 @@ Consider, for example, concepts of fariness, inequality, social structures, marg
 
 
 ```
-Your thoughts...
+Databases are not simply neutral tools that we use in daily life, but they are also social artifacts that carry built-in values. They reflect choices about what to track, what options to offer and what counts as a "valid” entry. Those choices shape who is visible to the system and who is left out.
+For example, in databases with Race as a field with fixed categories, people with mixed background or communities not listed may feel erased or forced into inaccurate boxes. When databases are designed with rigidity, the downsides often fall on minority groups with less power, less visibility and lower socioeconomic status. In addition, the presence of “missing values” is not only technical gaps, but they often reflect on unchecked marginalization. 
+It is also important to consider whether it is truly necessary to collect certain information, especially sensitive information such as race, religion, disability, immigration status and more. Even seemingly “neutral” fields such as postal codes, could act as a proxy for socio-economic status. For databases used in the vulnerable sectors, it is especially important to for designers to explain why data is collected and ensure encryption and give people choices to review and update their records with ease. 
+Because society now relies on large databases for daily operations such as banking, human resources, applying for benefits and more, poor design can put people in difficult situations. A good database should be designed with care and ethical considerations, so that the databases can serve everyone, not just those who fit into the boxes. 
+
 ```
