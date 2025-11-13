@@ -14,10 +14,10 @@
     * Open a private window in your browser. Copy and paste the link to your pull request into the address bar. Make sure you can see your pull request properly. This helps the technical facilitator and learning support staff review your submission easily.
 
 Checklist:
-- [ ] Create a branch called `assignment-two`.
-- [ ] Ensure that the repository is public.
-- [ ] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
-- [ ] Verify that the link is accessible in a private browser window.
+- [x] Create a branch called `assignment-two`.
+- [x] Ensure that the repository is public.
+- [x] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
+- [x] Verify that the link is accessible in a private browser window.
 
 If you encounter any difficulties or have questions, please don't hesitate to reach out to our team via our Slack. Our Technical Facilitators and Learning Support staff are here to help you navigate any challenges.
 
@@ -54,7 +54,11 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
 ```
-Your answer...
+1. Type 1 slowly changing dimensions (overwrite changes): If the customer already exists than the changed address (column) will be updated.
+The history of the old address will not be saved. 
+2. Type 2 slowly changing dimensions (retain changes): The old address wil have a end-date now and a new row with the new address will be added.
+![Tables_example](https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&dark=auto#R%3Cmxfile%3E%3Cdiagram%20name%3D%22Page-1%22%20id%3D%22eoebsmCHAySjbejiEOs3%22%3E7Z1bk6I4FIB%2FTVfNPDhFQFAfW9uZ3a2ZranpqZp9TUtUtpGwELvb%2BfWbQFAxQVHjrTlVXaWEEOGcL%2BFckvSdM5i9fUlwPP1GfRLe2Zb%2Fduc83Nk2atse%2FxAli7yk07PygkkS%2BLLSquAx%2BE1kYVFtHvgkLVVklIYsiMuFIxpFZMRKZThJ6Gu52piG5V%2BN8YQoBY8jHKqlvwKfTfPSrmutyv8gwWRa%2FDKy5JkZLirLgnSKffq6VuQM75xBQinLv83eBiQUwivkkl%2F3ueLs8sYSErE6F%2FS%2BkGGn%2Fc%2F34eAXen76OfwdWL9ayM2becHhXD6xvFu2KEQwSeg8ltVIwsibTvD4qahuqTeGlo%2FLOSF0Rliy4FVkQ215hSSkEO3rStx2Ac10TdTLiliqeLJseSUF%2FkUKYh%2Bh7JYJV2Ysvsrn7qcMJ0zSa%2FFjLhWGg4gk%2FBhlx2GI4zTIpZTVmAah%2FxUv6JwV7RRH%2FTG%2FWjaGPH5cKfx1IW%2FRryp6KWunrqztU8na3lPWP0QX6k9pEvwWIg6lNDfln74GsxBHvG9if6OoT7OxKL8qoc9kQEMq9BREU5IEQv6MxrJGSMZMfn2ijNGZPEikbCytbv2Exj9xMiFFlXEQhsXPRDQSxMQ0iFgmTbfP%2F7h8B9Yn987lTzzgx2h1zP9E9YQNaMTvmGMlmiU4Za8kNYyLnpZdeHScE9HhKHQM5inXAu9XtvXnQyUq%2FEFZgMMfYmCKJlkPnbJZKDvj6zRg5DHGI1H1lb%2B38g67Noxtg4NywY7DbCSfBr5PIr1%2B92Moo4EkwxeSQ4GMqtXeqdZeZz%2BtysZWAt67NRzy540w4%2F1xHvmpgsryPg%2Bnp72NnnvfT0iaAkJHIfRWVvg6A55Romq0dgaiVGtpELAFMGSCIdRzVIje47Dkgclz%2FSbPoozHTguofSILqKPAgmC4qadZ7zCrZ4smDxheNlo7w%2FDS1QwvXshy3QbP%2FKa9iThCNmfbGlA%2BjvDPR8bL8UxAET2lcSb4%2FCp%2BE%2BULixN%2B8LJZlMY4KrHp%2FTcX8Y3%2BEx49izhC5LdGOTH3IpKT4Cgt9NjPggnLc6EQYsvHyfOHZPL0QQwWvLT4%2BJh%2FijO26%2BYH618%2BfszvSv58cZ9t19t85uUzZrdefhxeXHpI6HdH9Ls9TcXDu2GN1s7QDXuqqZhjBxAdD1FtW%2FHWB%2FMiDA7G4g0Yi6itjm3njZchNXRdzQuMOJqu1rwoGVJD8Pd9YUYNpiSSVhIQdAxBDQuSIU3UPkMJKDJAUWPCZEgN3xd%2BmRC21s0UJ1pppgbhQ6JO%2FKb1A38uYvHQSAxvg4c1dy9vucLf46pku%2BEsoygB0zCHuYfLcXwYEQETLxCwBCMc3ssTMw5s1hsyv5kUdtoRZFUkg2Uzne4nV0ELOY5Kg3OqbLCr0%2Fk2c1dj2l4g9b5jfgMqT3DoXjzp7taY9QFexdm8ipz6K0q7u2qKAvLuhyi2YsB9769uV81aQObdNEQN8ypcNa8BuXdjFDXGq3DVuDyYPtdn%2BlxL%2Bt1T4%2B%2BQf6%2Br295h1s%2Bt52w8NQiv5p0BoWMQalgu2VND9JBMNodRY7LJnhqZB%2BPnao2fy6eTPTUcWw0MjDmavta82I%2BnxpYhnWyUoIYFfjxNMBrSyaYoakzgx1Nj0gpCxJ%2BQR3nILYApndAIh8NV6UYqdlXnK81ULlT3L2FsIXWH54yW%2Bct%2FU%2FxQpRqLAAOdJyOy5YmK5fCF6bOvmZGQELPgpXwjxm2IXg25n3mFuVN72fPJlpj3dLP0t1niGqv7WtaY5xquNGMvv8a8BzHfa3J7cvavKN293LMD8t1HavbAiO%2Bt2xbIUkO%2BkPA2TVHD%2FB5kaaK%2BkPE2hVFjHB9kQdT3Fsyfa0l5I0uN%2BkLOu6ZyZWdrXtIbWbo5xbDuHNadX77vNWy2ALI0EXOYLmAOpMbMF0BWjeAtmI7XYjpefsIAstS4djUxMOzoelsTw2dqgB7mDJhlqGnBM83GKTBrwBxHzYmeabZU2XsZenf7MnTRfIOWoVfli69nGTrS7Imy3e7V2LhXvw7d8dTMfAd1VTnbvZPZi5q9QsDBuOD%2BVjn4W01QLSIn3NFq6y7ekJuvr9rdkWnUbpt8hddq7izvcM2%2B3ZCeNw3S24bWSyTYZsGq0dxZwNJEWiFFbwwlu%2BtpUHqfY5SjvueG4zG%2FaTFDV818PQqDh1d%2F4HcFaaNTQtjWTGB9txCqzu42CDdTt8PIByTPgKTb0b1i3yeSCFJQN%2BEhVk9f0juMJ5u%2BhNQUFExfqq3d3Sko%2FchwcKq7VnNnGWjUJJQ6VQkwOgqjvV3EI7Cq0dxZdtfWJKJgMo45lur7iLc%2FRDlqHOsvHLUs1LKt5b8ZBqKOJKq%2Bw%2FcOiFITXX%2FTFz5qCaJcIMoMUfX9tXdAVKeSGnDPLu6e6aYInjmh54B%2Fdrh6nUP9s9sPBDmqfwbbKhrGqIEpvDb4ZydlqUk5vLaaPgFr2jhRTUrIFaPkGlEPZNRyUKvXK7a1AaKOJapJ%2BTRbN58ZHLZrddiWu2JdzmGz1TGoGhkYeXTdrZEOm63O7YZVXWYpaqC%2FZmvmg8PCLmMoNcldc9TZu48kZi27K%2Fw1eMcZQqpJ%2FpqjvvPAXzNOVKP8tRr%2Fq%2FW29q0u9j7euXF1pW9Ue%2Bfq7NL7JMGLtQrSD1y1%2FF0UrOhyOuV1km15%2FLlmfVfumrIiIb8Dw5GhGisnr4iLY5WoSt0pS932NlYD5xzKq7aob3NZrNJQzqnSkDlN1vin103SpNsxpEmv2L5ohyaPHSDcPQcI77gBgh8mVOwjsKrObYLpN%2BoTUeN%2F%3C%2Fdiagram%3E%3C%2Fmxfile%3E)
+The tables in the image are simplied in terms of columns. In the real databases, customer address table should include more information such as postal code, etc. 
 ```
 
 ***
@@ -183,5 +187,11 @@ Consider, for example, concepts of labour, bias, LLM proliferation, moderating c
 
 
 ```
-Your thoughts...
+When we think of AI tools, we often picture this tool that is highly automated and can do tasks which humans cannot do. 
+However, the reality is that human decisions are central to every stage of the development of an AI tool, especially the curation of large data training sets, as described by the article from Vicki Boykis. 
+AI tools are not exempted from many potential ethical issues, on the contrary, AIs could potentially amplify existing ethical issues, such as fairness, biases, prejudices, and more. An example I have encountered was that, when an AI tool was asked to make an image of a man and woman, specifically a strong muscular woman, none of the returned images met the requirement as they all showed a muscular man and a slender woman. 
+It is hard to explain why this occurs without considering the training dataset behind each tool. If AIs have never “seen” something, it’s hard for them to generate what is asked of them.
+It is apparent that human labour and input remain essential for AI development, therefore it is important to clarify the involvement of human efforts, especially at early stages of development. 
+To mitigate incidences like this, the selected training data sets need to be very carefully ascertained to actively avoid biases like this. 
+It is also as important to educate AI users, which are growing in numbers by the day to understand the capabilities and limitations of the tools at their fingertips so they can be mindful about how they are using the tool and what they are getting out of it. 
 ```
